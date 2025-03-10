@@ -21,7 +21,7 @@ public class Soal4 {
         System.out.println("Film yang ingin ditonton: ");
         // Print the result: use looping to call element in movieList array
         for (int i = 0; i < movieList.length; i++) {
-            System.out.println( (i+1) + ". " + movieList[i] );
+            System.out.println( (i+1) + ". " + movieList[i] ); // declare element in movieList array at index i+1
         }
 
     }
